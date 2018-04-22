@@ -79,8 +79,6 @@ int main(int argc, char *argv[]) {
 
 void Hanoi(short n, short start, short end, short aux_rod)
 {
-	aux_rod = findAux_rod(start,end);
-	//cout << "aux_rod = " << aux_rod << endl;
 	if(n == 1)
 	{
 		cout << start << '\t' << end << endl;
